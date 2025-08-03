@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #2B3844;
+}
+.text3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    color: white;
+}
+
+.for {
+    padding: 25px 25px;
+    width: 1310px;
+
+    background-color: #202C36;
+
+}
+body{
+    background-color: #202C36;
+}
+
+input {
+    width: 480px;
+    height: 56px;
+    border: none;
+    background-color: #2B3844;
+    color: white;
+    outline: none;
+}
+
+.tg {
+    width: 264px;
+    height: 336px;
+    gap: 50px;
+}
+
+.tb {
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+gap: 100px;
+}
+
+
+
+
+
+
+
+@media(max-width :900px) {
+.for input{
+ width: 90%;
+}
+}
